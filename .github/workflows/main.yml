@@ -25,6 +25,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
+      # Runs a set of command using the runners shell
+      - name: Run a multiple-line scripts
+        run: gh auth login
+      # Run a single command using the runners shell
+      - name: Checkout
         run: gh pr checkout 3913
+
