@@ -56,3 +56,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: 'echo tests completed'
+      [![npm root install](https://github.com/hvndathang/npmjs/actions/workflows/npm-root-install.yml/badge.svg?event=push)](https://github.com/hvndathang/npmjs/actions/workflows/npm-root-install.yml)
